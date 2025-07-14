@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\jen3_\OneDrive\Documentos\Java\Start\HelloFX\HelloFX.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\jen3_\OneDrive\Documentos\Java\Start\HelloFX\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.017.000
+Java max ver:	
+JRE paths:	runtime
+Check launcher:	C:\Users\jen3_\OneDrive\Documentos\Java\Start\HelloFX\runtime\bin\javaw.exe (OK)
+Version string: 1.017.000_015 / 64-Bit (OK)
+Launcher:	C:\Users\jen3_\OneDrive\Documentos\Java\Start\HelloFX\runtime\bin\javaw.exe
+Launcher args:	-jar "C:\Users\jen3_\OneDrive\Documentos\Java\Start\HelloFX\pedropedrope.jar"
+Args length:	77/32768 chars
+Exit code:	0
