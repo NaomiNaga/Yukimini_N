@@ -116,7 +116,7 @@ public interface ComponentCallback {
 }
 ```
 
-## <AlgumController>
+## Controller incluido
 
 ```java
 public class <AlgumController> {
