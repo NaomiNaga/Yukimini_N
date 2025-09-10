@@ -75,34 +75,6 @@ Exemplo:
 
 O `fx:id` é para dar nome único ao componente na tela (para chamar no Controller).
 
-## MainScreenController
-
-```java
-package app.mainScreen;
-
-import <todos os components referenciados/usados>
-
-public class MainScreenController implements Initializable {
-
-    @FXML private <TipoDoComponente/NomeController> <nomeComponente/classeUsadaNoController>
-
-    @FXML private void <Função>() { /* TODO: implementar depois */ }
-
-    private ComponentCallback <callbackEspecificoEmOutroController> = new ComponentCallback() {
-        @Override
-        public void onClickCallback() {
-            <Algo>;
-            <Algo2>;
-        }
-    };
-
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        <Outro>Controller.set<CallbackEspecificoEmOutroController>(callbackEspecificoEmOutroController);
-    }
-
-}
-```
 
 ## ComponentCallback
 
@@ -140,5 +112,34 @@ public class <AlgumController> {
 
     @FXML
     private Button <btnNomeDoBotao>;
+}
+```
+
+## MainScreenController
+
+```java
+package app.mainScreen;
+
+import <todos os components referenciados/usados>
+
+public class MainScreenController implements Initializable {
+
+    @FXML private <TipoDoComponente/NomeController> <nomeComponente/classeUsadaNoController>
+
+    @FXML private void <Função>() { /* TODO: implementar depois */ }
+
+    private ComponentCallback <callbackEspecificoEmOutroController> = new ComponentCallback() {
+        @Override
+        public void onClickCallback() {
+            <Algo>;
+            <Algo2>;
+        }
+    };
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        <Outro>Controller.set<CallbackEspecificoEmOutroController>(callbackEspecificoEmOutroController);
+    }
+
 }
 ```
